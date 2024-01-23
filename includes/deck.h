@@ -3,6 +3,7 @@
 #include "card.h"
 
 class Deck{
+    protected:
     Card* cards[52];
     unsigned short int size;
     public:

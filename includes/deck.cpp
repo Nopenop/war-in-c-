@@ -27,6 +27,9 @@ void Deck::shuffle(){
 }
 
 Card* Deck::draw(){
+    if (size < 1){
+        return nullptr;
+    }
     Card* temp = new Card(cards[size-1]->getVal(),cards[size-1]->getSuit());
     delete cards[size-1];
     size--;
