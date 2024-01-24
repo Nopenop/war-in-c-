@@ -39,3 +39,9 @@ Card* Deck::draw(){
 unsigned short int Deck::getSize() const{
     return size;
 }
+
+unsigned short int Deck::placeCard(Card* card){
+    if (size == 52) return -1;
+    cards[size -1] = card;
+    return 1;
+}

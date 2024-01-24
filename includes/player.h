@@ -7,8 +7,8 @@
 #include <stdlib.h>
 
 class Player{
-    PlayerDeck* deck;
     public:
+    PlayerDeck* deck;
     Player();
     int winGame() const;
 };
