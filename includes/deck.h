@@ -10,6 +10,7 @@ class Deck{
     Deck();
     void shuffle();
     Card* draw();
+    unsigned short int getSize() const;
 };
 
 #endif

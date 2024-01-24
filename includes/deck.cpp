@@ -35,3 +35,7 @@ Card* Deck::draw(){
     size--;
     return temp;
 }
+
+unsigned short int Deck::getSize() const{
+    return size;
+}
