@@ -11,6 +11,7 @@ class Deck{
     void shuffle();
     Card* draw();
     unsigned short int getSize() const;
+    unsigned short int placeCard(Card* card);
 };
 
 #endif

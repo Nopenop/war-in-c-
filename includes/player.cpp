@@ -3,7 +3,7 @@
 #include "deck.h"
 #include "card.h"
 #include <stdlib.h>
-
+#include <iostream>
 
 Player::Player(){
     deck= new PlayerDeck(); 
