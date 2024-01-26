@@ -11,6 +11,7 @@ class Player{
     PlayerDeck* deck;
     Player();
     int winGame() const;
+    int loseGame() const;
 };
 
 #endif

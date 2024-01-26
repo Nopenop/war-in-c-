@@ -10,12 +10,13 @@
 class Game{
     public:
     Game();
-    Player* playe r1;
+    Player* player1;
     Player* player2;
     Deck* mainDeck;
     void passOutCardsAll();
     void passOutCardsPlayer(Player* player);
-    void nextTurn();
+    int nextTurn();
+    int checkIfLost() const;
 };
 
 
